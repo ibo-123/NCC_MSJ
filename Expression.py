@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+m=a+b*c
+n=a*(b+c)
+l=a*b*c
+o=(a+b)*c
+s=a+c+b
+print(max(m,n,l,o))
